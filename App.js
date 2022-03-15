@@ -6,13 +6,13 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 // import 'bootstrap.min.css';
 
 import './App.css';
-import Home from './components/home.component';
-import Nav from './components/nav.component';
-import Login from './components/login.component';
-import Register from './components/register.component';
+import Home from './home.component';
+import Nav from './nav.component';
+import Login from './login.component';
+import Register from './register.component';
 import axios from 'axios';
-import { Forgot } from './components/forgot.component';
-import { Reset } from './components/reset.component';
+import { Forgot } from './forgot.component';
+import { Reset } from './reset.component';
 
 
 export default class App extends Component {
